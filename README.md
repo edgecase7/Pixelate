@@ -66,10 +66,9 @@ Copy and paste the entire code block below into a new Colab cell and run it. The
 import os
 import shutil
 
-# --- Configuration ---
-# Your project folder name in Google Drive
+
 project_folder_name = "Pixelate"
-# --- End Configuration ---
+
 
 # Define and change to the project path
 project_path = os.path.join("/content/drive/MyDrive/", project_folder_name)
@@ -88,4 +87,4 @@ print("\nGenerating new input images...")
 print("\nStarting image processing (grayscale + resize)...")
 !python3 main.py --percent 0.1
 
-print("\n✅ Pixelate has finished processing all images!")
+print("\n Pixelate has finished processing all images!")
